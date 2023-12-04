@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RemoteControl</title>
+  <link href="static/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container main-container">
+    <div class="card" style="width: 400px;">
+      <div class="card-body">
+        <h5 class="card-title">ESP-32</h5>
+<!--        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
+
+        <label for="display-text1" class="form-label">Text on display</label>
+        <div class="input-group mb-3">
+<!--          <span class="input-group-text" id="inputGroup-sizing-default">Text on display</span>-->
+          <input type="text" class="form-control" id="display-text1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <button class="btn btn-outline-primary" type="button" id="display-text1-send">Send</button>
+        </div>
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="led1">Led</label>
+          <input class="form-check-input" type="checkbox" id="led1">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!--<script src="https://unpkg.com/wavesurfer.js"></script>-->
+  <script src="static/js/websocket.js"></script>
+  <script src="static/js/led.js"></script>
+</html>
