@@ -1,4 +1,4 @@
-const socketAPI = 'ws://localhost:8080/ws-web'
+const socketAPI = 'ws://' + SERVER_ULR + '/ws-web'
 
 class MySocket{
     constructor(){
