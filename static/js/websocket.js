@@ -1,4 +1,4 @@
-const socketAPI = 'ws://' + SERVER_ULR + '/ws-web'
+const socketAPI = 'ws://' + SERVER_URL + '/ws-web'
 
 class MySocket{
     constructor(){
